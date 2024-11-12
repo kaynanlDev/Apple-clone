@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: verdana, sans-serif;
+}
+body{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
+nav{
+    background-color: #333;
+}
+nav ul{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul a{
+    color: #f0efef;
+    font-size: 0.8rem;
+    transition: 0.3s ease;
+}
+nav ul a:hover{
+    color: #fff;
+}
+
+.navbar-second{
+    padding: 16px 0;
+    border-bottom: 1px solid #b1b1b1;
+}
+.navbar-second .second-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-title{
+    color: #333;
+    font-size: 1rem;
+}
+.second-links a{
+    margin-left: 8px;
+    font-size: 0.9rem;
+    color: #333;
+}
+.second-links .btn{
+    padding: 6px 16px;
+    background-color: #0071e3;
+    color: #fff;
+    border-radius: 24px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ribbon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #eeeeee;
+    padding: 16px;
+}
+.ribbon p{
+    margin: 0 auto;
+    font-size: 0.9rem;
+    text-align: center;
+    color: #333;
+}
+.ribbon p a{
+    color: #0071e3;
+}
+.ribbon p a:hover{
+    text-decoration: underline;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.hero h2{
+    color: #333;
+}
+.hero h1{
+    text-align: center;
+    font-size: 4rem;
+    color: #333;
+}
+.hero p{
+    text-align: center;
+    max-width: 70%;
+    color: #333;
+    line-height: 140%;
+}
+.price{
+    margin: 16px 0;
+    font-size: 1.5rem;
+}
+
+.btn{
+    padding: 8px 24px;
+    background-color: #0071e3;
+    color: #fff;
+    border-radius: 24px;
+    margin-bottom: 48px;
+}
+.color{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+.color a{
+    width: 48px;
+    height: 48px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 24px 0;
+    border: 2px solid white;
+    box-shadow: 1px 1px 1px;
+}
