@@ -179,5 +179,9 @@ main{
     }
     .phone{
         margin-left: 92px;
+        transition: 0.2s ease-in-out;
     }
+}
+.opaci{
+    opacity: 0.9;
 }
